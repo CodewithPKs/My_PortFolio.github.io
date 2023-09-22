@@ -70,6 +70,8 @@ body::-webkit-scrollbar {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
     color: white;
+    height: 100vh;
+    width: 100vw;
     
 }
 #home::before{
@@ -219,6 +221,9 @@ body::-webkit-scrollbar {
     padding: 50px;
     text-align: center;
     color: white;
+    height: 100vh;
+    width: 100vw;
+    
 }
 
 .name-container-about {
@@ -296,6 +301,9 @@ body::-webkit-scrollbar {
     text-align: center;
     color: white;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("images/bg-pic.jpg") center/cover;
+    height: 100vh;
+    width: 100vw;
+    
 }
 
 #skill::before {
@@ -419,12 +427,16 @@ body::-webkit-scrollbar {
     }
 }
 
+/* ----contect me------ */
 #contactme {
     background-color:rgba(0, 0, 0, 0.5); 
     background: url("images/bg-pic.jpg") no-repeat center center/cover;
     opacity: .8;
     padding: 80px;
     text-align: center;
+    height: 100vh;
+    width: 100vw;
+    
 }
 
 
@@ -641,7 +653,11 @@ span h3:hover {
 
 
 /* project section styleing */
-
+#projects{
+    height: 100vh;
+    width: 100vw;
+    
+}
 .projects-card-container{
     display: flex;
     justify-content: center;
