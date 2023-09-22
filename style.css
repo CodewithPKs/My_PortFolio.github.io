@@ -188,7 +188,7 @@ body::-webkit-scrollbar {
     }
 
     #home {
-        height: 85vh;
+        height: 90vh;
         padding: 250px 50px;
         text-align: center;
     }
@@ -280,6 +280,7 @@ body::-webkit-scrollbar {
     .pro-pic img {
         max-width: 80%;
     }
+
 }
 
 @media (max-width: 450px) {
@@ -419,6 +420,9 @@ body::-webkit-scrollbar {
 
     .skill {
         font-size: 2rem;
+    }
+    #skill{
+        height: 90vh;
     }
 }
 
@@ -610,6 +614,9 @@ span h3:hover {
     .all-links a {
         font-size: 1.4rem;
     }
+    #contactme{
+        height: 90vh;
+    }
 }
 
 @media (max-width: 450px) {
@@ -777,6 +784,7 @@ span h3:hover {
     .project-container .project-card .content h2{
         font-size: 1.2rem;
     }
+
 }
 
 
