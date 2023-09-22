@@ -23,3 +23,4 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     alert("Error sending email: " + error);
   });
 });
+
