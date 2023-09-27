@@ -695,7 +695,7 @@ span h3:hover {
 }
 
 .project-container .project-card:hover {
-    height: 240px;
+    height: 220px;
 }
 
 .project-container .project-card .img-box {
@@ -783,6 +783,7 @@ span h3:hover {
         -ms-overflow-style: none;
         scrollbar-width: none;
         overflow-y: scroll;
+      
     }
     .project-container::-webkit-scrollbar {
         display: none;
