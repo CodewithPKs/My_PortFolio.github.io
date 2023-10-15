@@ -836,12 +836,29 @@ span h3:hover {
 .onclick-show{
     display: none;
 }
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
 .wrapper {
-    position: relative;
+    /* position: relative;
     padding: 20px;
     display: flex;
     top: -30px;
-    align-items:flex-start;
+    align-items:flex-start; */
+
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: flex-start; */
+    max-width: -webkit-fill-available;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 15px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    /* margin: 0; */
 }
 
 .card {
